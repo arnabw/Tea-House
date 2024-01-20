@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.myBtn {
+  border-radius: 10px!important;
+  background: var(--Linear, linear-gradient(270deg, #f00 0%, #ff8938 100%))!important;
+  color: #FFF!important;
+  font-weight: 700!important;
+}
