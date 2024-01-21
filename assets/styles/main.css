@@ -1,11 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 
-body{
-    font-family: 'Manrope', sans-serif;
+:root {
+  --gradient: linear-gradient(270deg, #f00 0%, #ff8938 100%);
+  --gradient-second: linear-gradient(
+    90deg,
+    #d9d9d9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+body {
+  font-family: "Manrope", sans-serif;
 }
 .myBtn {
-  border-radius: 10px!important;
-  background: var(--Linear, linear-gradient(270deg, #f00 0%, #ff8938 100%))!important;
-  color: #FFF!important;
-  font-weight: 700!important;
+  border-radius: 10px !important;
+  background: var(--gradient) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+.fresh1 {
+  border-radius: 10px !important;
+  opacity: 0.1 !important;
+  background: var(--gradient) !important;
+}
+
+.fresh1-img {
+  border-radius: 10px;
+  background: rgba(230, 166, 35, 0.1);
+}
+
+.fresh2-img {
+  border-radius: 10px;
+  background: rgba(87, 118, 57, 0.1);
+}
+
+.fresh2 {
+  border-radius: 10px !important;
+  background: var(--gradient-second) !important;
 }

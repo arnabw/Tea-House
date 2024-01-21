@@ -45,7 +45,7 @@
     <!-- Main Section  -->
     <main class="container mx-auto w-[95%]">
       <!-- Featured Product Section  -->
-        <div class="flex flex-col mt-10 md:mt-14  lg:mt-20">
+        <section class="flex flex-col mt-10 md:mt-14  lg:mt-20">
             <div class="flex flex-col justify-center items-center space-y-2 lg:space-y-5 text-center">
               <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Our Featured Products</h1>
               <p class="text-[#777] font-medium lg:w-[901px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -80,7 +80,33 @@
                 </p>
               </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Presented Section  -->
+        <section class="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-12 w-full mx-auto mt-10 md:mt-14  lg:mt-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
+            <div class="hidden md:flex fresh1 h-[136px]"></div>
+            <div class="fresh1-img row-span-2 flex justify-center items-center p-6 lg:p-10">
+              <img src="./assets/images/fresh-1.png" alt="">
+            </div>
+            <div  class="fresh2-img row-span-2 flex justify-center items-center p-6 lg:p-10">
+              <img src="./assets/images/fresh-2.png" alt="">
+            </div>
+            <div class="hidden md:flex fresh2 h-[136px]"></div>
+          </div>
+          <div class="space-y-3 lg:space-y-5 border-t broder-gray-600 lg:border-none flex flex-col items-center lg:items-start text-center lg:text-justify">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold w-[350px]">Great Tea, Freshly Presented</h1>
+            <p class="text-[#777] font-medium w-[500px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <h4 class="text-xl lg:text-2xl font-extrabold">Unique Taste</h4>
+            <p class="text-[#777] w-[458px]">
+              A Unique and different style from other teapots gives a luxurious and minimalist impression
+            </p>
+            <h4 class="text-xl lg:text-2xl font-extrabold">Premium Quality</h4>
+            <p class="text-[#777] w-[458px]">
+              Premium Quality that makes tea more elegant and more durable when you use it.
+            </p>
+          </div>
+        </section>
     </main>
     <footer>
         <div class="container mx-auto"></div>
