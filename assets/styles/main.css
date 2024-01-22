@@ -25,16 +25,20 @@ body {
 }
 
 .fresh1-img {
-  border-radius: 10px;
-  background: rgba(230, 166, 35, 0.1);
+  border-radius: 10px !important;
+  background: rgba(230, 166, 35, 0.1) !important;
 }
 
 .fresh2-img {
-  border-radius: 10px;
-  background: rgba(87, 118, 57, 0.1);
+  border-radius: 10px !important;
+  background: rgba(87, 118, 57, 0.1) !important;
 }
 
 .fresh2 {
   border-radius: 10px !important;
   background: var(--gradient-second) !important;
+}
+.myBg {
+  border-radius: 10px!important;
+  background: var(--gradient) !important;
 }
